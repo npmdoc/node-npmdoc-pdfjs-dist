@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"pdfjs-dist",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "pdfjs-dist",
+    "description": "api documentation for [pdfjs-dist (v1.8.172)](http://mozilla.github.io/pdf.js/) [![npm package](https://img.shields.io/npm/v/npmdoc-pdfjs-dist.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pdfjs-dist) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pdfjs-dist.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pdfjs-dist)",
     "devDependencies": {
-        "pdfjs-dist": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "pdfjs-dist": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-pdfjs-dist",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-pdfjs-dist",
+    "keywords": [
+        "documentation",
+        "pdfjs-dist"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_pdfjs_dist.js",
+    "name": "npmdoc-pdfjs-dist",
+    "nameAlias": "npmdoc_pdfjs_dist",
+    "nameOriginal": "npmdoc-pdfjs-dist",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-pdfjs-dist"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
