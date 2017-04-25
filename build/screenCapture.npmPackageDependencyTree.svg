@@ -4,7 +4,7 @@
 <tspan x="10" y="26">9 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
 <tspan x="10" y="58">node_modules</tspan>
-<tspan x="10" y="74">└─┬ pdfjs-dist@1.8.213 </tspan>
+<tspan x="10" y="74">└─┬ pdfjs-dist@1.8.254 </tspan>
 <tspan x="10" y="90">  ├── node-ensure@0.0.0 </tspan>
 <tspan x="10" y="106">  ├── UNMET PEER DEPENDENCY webpack@&gt;=0.9 &lt;2 || ^2.1.0-beta || ^2.2.0</tspan>
 <tspan x="10" y="122">  └─┬ worker-loader@0.8.0 </tspan>
