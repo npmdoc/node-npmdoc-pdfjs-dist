@@ -1,4 +1,7 @@
-# api documentation for  [pdfjs-dist (v1.8.213)](http://mozilla.github.io/pdf.js/)  [![npm package](https://img.shields.io/npm/v/npmdoc-pdfjs-dist.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pdfjs-dist) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pdfjs-dist.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pdfjs-dist)
+# npmdoc-pdfjs-dist
+
+#### basic api documentation for  [pdfjs-dist (v1.8.254)](http://mozilla.github.io/pdf.js/)  [![npm package](https://img.shields.io/npm/v/npmdoc-pdfjs-dist.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pdfjs-dist) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pdfjs-dist.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pdfjs-dist)
+
 #### Generic build of Mozilla's PDF.js library.
 
 [![NPM](https://nodei.co/npm/pdfjs-dist.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pdfjs-dist)
@@ -32,11 +35,11 @@
     "devDependencies": {},
     "directories": {},
     "dist": {
-        "shasum": "1800459be935ab5577bb4a1bfc1836318924daf2",
-        "tarball": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-1.8.213.tgz"
+        "shasum": "350bf7b13c7013790f8a1ec0983265b2e8bb1b29",
+        "tarball": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-1.8.254.tgz"
     },
     "format": "amd",
-    "gitHead": "3dfe9dca8f3872587e9f0191ab1e646ba6b22ea9",
+    "gitHead": "830282bb1c3644b9bee430ab46586cefc2e1f653",
     "homepage": "http://mozilla.github.io/pdf.js/",
     "keywords": [
         "Mozilla",
@@ -63,7 +66,8 @@
         "url": "git+https://github.com/mozilla/pdfjs-dist.git"
     },
     "scripts": {},
-    "version": "1.8.213"
+    "version": "1.8.254",
+    "bin": {}
 }
 ```
 
